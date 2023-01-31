@@ -13,6 +13,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index(){
         System.out.println("hello git!");
+        System.out.println("hello git version controller!");
         return "index";
     }
 }
