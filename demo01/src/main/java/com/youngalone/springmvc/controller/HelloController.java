@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @RequestMapping("/")
     public String index(){
+        System.out.println("hello git!");
         return "index";
     }
 }
