@@ -15,6 +15,7 @@ public class HelloController {
         System.out.println("hello git!");
         System.out.println("hello git version controller!");
         System.out.println("hot-fix test");
+        System.out.println("master conflict test");
         return "index";
     }
 }
