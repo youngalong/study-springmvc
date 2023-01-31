@@ -14,6 +14,7 @@ public class HelloController {
     public String index(){
         System.out.println("hello git!");
         System.out.println("hello git version controller!");
+        System.out.println("hot-fix test");
         return "index";
     }
 }
